@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GourmetGo | Discover the Best Flavors</title>
+    <meta name="description" content="Discover and share your culinary adventures with GourmetGo. Start your journey today and join our community on Xiaohongshu.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Gourmet<span>Go</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#social">Social</a>
+                <a href="#contact" class="btn btn-primary-small">Update Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1 class="reveal">Elevate Your <span class="gradient-text">Dining Experience</span></h1>
+                <p class="reveal delay-1">Explore curated restaurant recommendations and share your foodie moments with the world.</p>
+                <div class="cta-group reveal delay-2">
+                    <button id="startAppBtn" class="btn btn-primary btn-lg">Start GourmetGo App</button>
+                    <a href="#social" class="btn btn-outline btn-lg">View Social Posts</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="image-wrapper">
+                    <img src="assets/hero.png" alt="Exquisite Dining Experience">
+                    <div class="floating-badge">Trending #1</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="social" class="social-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="reveal">Share on <span class="xhs-color">Xiaohongshu</span></h2>
+                <p class="reveal">Join thousands of foodies sharing their best moments on Little Red Book.</p>
+            </div>
+            <div class="xhs-integration reveal-up">
+                <div class="xhs-card">
+                    <div class="xhs-card-header">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="User Avatar" class="avatar">
+                        <div class="user-info">
+                            <span class="username">FoodieExplorer_SH</span>
+                            <span class="location">Shanghai, China</span>
+                        </div>
+                        <button class="btn-xhs-follow">Follow</button>
+                    </div>
+                    <div class="xhs-card-image">
+                        <img src="assets/xhs-post.png" alt="Gourmet Dish">
+                    </div>
+                    <div class="xhs-card-footer">
+                        <div class="xhs-actions">
+                            <button class="action-btn"><i class="heart-icon">❤️</i> 2.4k</button>
+                            <button class="action-btn"><i class="star-icon">⭐</i> 842</button>
+                            <button class="action-btn"><i class="comment-icon">💬</i> 156</button>
+                        </div>
+                        <p class="xhs-caption">
+                            <strong>Found this hidden gem today!</strong> 🌟 The fusion flavors are absolutely mind-blowing. If you're looking for the perfect weekend brunch spot, this is it! #GourmetGo #XiaohongshuFood #HiddenGem #ShanghaiDining
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container container-narrow">
+            <div class="contact-card reveal">
+                <div class="text-center">
+                    <h2>Stay in the Loop</h2>
+                    <p>Be the first to know about new restaurant openings and app updates.</p>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="What features would you like to see?" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Get Early Access</button>
+                </form>
+                <div id="formSuccess" class="form-success hidden">
+                    <div class="success-icon">✓</div>
+                    <h3>Thank You!</h3>
+                    <p>We've received your information and will be in touch soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">Gourmet<span>Go</span></a>
+                <p>&copy; 2026 GourmetGo. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#">Xiaohongshu</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
